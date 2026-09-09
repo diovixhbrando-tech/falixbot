@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # ===== ТВОИ ДАННЫЕ (ВСТАВЬ СЮДА) =====
-TELEGRAM_TOKEN = "8795799316:AAH3ibaLZKu2dgWSro1WXz9trjZE3MmwkBM"
+TELEGRAM_TOKEN = "8795799316:AAHJY-dMCxnr_jIx3jYuQZRRdsnc1TRNmEg"
 API_KEY = "flx_live_5juKQTWMQ5qlqGeA0eYNwmYAv8WrPRboA96GuEjw"
 SERVER_ID = "3427098"
 # =====================================
