@@ -5,8 +5,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # ===== НАСТРОЙКИ (ЗАМЕНИТЕ НА СВОИ НОВЫЕ КЛЮЧИ) =====
-TELEGRAM_TOKEN = "ВАШ_НОВЫЙ_ТОКЕН_ОТ_BOTFATHER"
-API_KEY = "flx_live_НОВЫЙ_КЛЮЧ"          # создайте новый в панели FalixNodes
+TELEGRAM_TOKEN = "8795799316:AAH3ibaLZKu2dgWSro1WXz9trjZE3MmwkBM"
+API_KEY = "flx_live_5juKQTWMQ5qlqGeA0eYNwmYAv8WrPRboA96GuEjw"          # создайте новый в панели FalixNodes
 SERVER_ID = "3427098"                     # ваш ID сервера
 # =====================================================
 
