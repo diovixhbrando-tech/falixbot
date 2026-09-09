@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # ===== ВСТАВЬ СВОЙ НОВЫЙ ТОКЕН СЮДА =====
-TELEGRAM_TOKEN = "8795799316:AAHJY-dMCxnr_jIx3jYuQZRRdsnc1TRNmEg"
+TELEGRAM_TOKEN = "8795799316:AAHJY-dMCxnr_jIx3jYuQZRRdsnc1TRNmEg
 # =========================================
 
 API_KEY = "flx_live_5juKQTWMQ5qlqGeA0eYNwmYAv8WrPRboA96GuEjw"
