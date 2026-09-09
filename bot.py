@@ -3,11 +3,11 @@ from datetime import datetime
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
-# ===== ВСТАВЬ СВОЙ НОВЫЙ ТОКЕН СЮДА =====
-TELEGRAM_TOKEN = "8795799316:AAHJY-dMCxnr_jIx3jYuQZRRdsnc1TRNmEg"
-# =========================================
+# ===== ТОЛЬКО ТОКЕН ВСТАВЬ =====
+TELEGRAM_TOKEN = "ТВОЙ_НОВЫЙ_ТОКЕН"
+# ================================
 
-API_KEY = "flx_live_5juKQTWMQ5qlqGeA0eYNwmYAv8WrPRboA96GuEjw"
+API_KEY = "8795799316:AAHJY-dMCxnr_jIx3jYuQZRRdsnc1TRNmEg"
 SERVER_ID = "3427098"
 
 BASE_URL = f"https://client.falixnodes.net/api/client"
