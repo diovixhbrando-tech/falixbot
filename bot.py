@@ -3,9 +3,9 @@ from datetime import datetime
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
-# ===== ВСТАВЬ СВОЙ НОВЫЙ ТОКЕН СЮДА =====
-TELEGRAM_TOKEN = "8795799316:AAHJY-dMCxnr_jIx3jYuQZRRdsnc1TRNmEg
-# =========================================
+# ===== ВСТАВЬ СВОЙ ТОКЕН СЮДА (С КАВЫЧКАМИ) =====
+TELEGRAM_TOKEN = "8795799316:AAHJY-dMCxnr_jIx3jYuQZRRdsnc1TRNmEg"
+# =================================================
 
 API_KEY = "flx_live_5juKQTWMQ5qlqGeA0eYNwmYAv8WrPRboA96GuEjw"
 SERVER_ID = "3427098"
@@ -127,10 +127,7 @@ def uptime(update: Update, context: CallbackContext):
     update.message.reply_text(f"Сервер работает: {delta.days}д {h}ч {m}м {s}с")
 
 if __name__ == '__main__':
-    # ПРАВИЛЬНЫЙ СПОСОБ ИНИЦИАЛИЗАЦИИ UPDATER
-    updater = Updater(use_context=True)
-    updater.bot.token = TELEGRAM_TOKEN
-    
+    updater = Updater(token=TELEGRAM_TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("status", status))
@@ -139,7 +136,6 @@ if __name__ == '__main__':
     dp.add_handler(CommandHandler("restart_server", restart_server))
     dp.add_handler(CommandHandler("console", console))
     dp.add_handler(CommandHandler("uptime", uptime))
-    
     print("Бот запущен")
     updater.start_polling()
     updater.idle()
